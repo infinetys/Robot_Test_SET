@@ -15,7 +15,7 @@ ${password_input}   Ce9b0000
 ${logoutBt}         xpath=//a[contains(text(),'ออกจากระบบ')]
 
 
- 
+
 *** Test Cases ***
 SET Login
     Wait Until Element Is Visible  ${page_title}
@@ -31,4 +31,3 @@ SET Login
     # Click logout button
     Wait Until Element Is Visible  ${logoutBt}
     Click Element   ${logoutBt}
-
